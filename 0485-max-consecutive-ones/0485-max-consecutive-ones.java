@@ -7,7 +7,7 @@ class Solution {
             }
             else{
                 counter++;
-                if(max<counter) max = counter;
+                max = Math.max(max,counter);
             }
         }
         return max;
